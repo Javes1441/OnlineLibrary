@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    background-color: #EE4540;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-logo{
+    
+    width: 100%;
+    background-color: #801336;
+    display: flex;
+    justify-content: center;
+}
+.navlist{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    background-color: #801336;
+}
+.navlist div{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.logo{
+    display: flex;
+    flex-direction: row-reverse;
+
+    /* align-items: center; */
+}
+.logo img{
+    width: 80px;
+    
+}
+.reed a{
+    text-decoration: none;
+    font-size: 100%;
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+  
+    /* align-items: center; */
+    /* justify-self: center; */
+}
+.icons a img{
+    width: 25%;
+    margin-left: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    align-content: center;
+    
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.search-bar select,input,button {
+    height: 30px;
+    border-radius: 10px;
+    border: solid 0px;
+}
+.search-logo{
+    width: 30%;
+    border-radius: 10px;
+}
+button{
+    width: 5%;
+    border: solid 0px;
+    border-radius: 10px;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+p{  
+    font-size: large;
+    margin-left: 20%;
+    margin-right: 20% ;
+}
+.hero{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.books{
+    /* background-color: #C72C41; */
+    width: calc(100% * (1/4) - 10px - 1px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    border: 0px;
+    margin-top: 20px;    
+}
+.books img{
+    width: 80%;
+    border-radius: 10px;
+}
+.button-books{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.Buy-now{
+    width: 12%;
+    background-color: rgb(235, 86, 0);
+}
+.button-books button{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 20%;
+}
+.button-books button img{
+    width: 30%;
+}
+.footer{
+    margin-top: 50px;
+    height: 30vh;
+    width: 100%;
+    background-color:#801336 ;
+}
+.humber-icon{
+    display: none;
+}
+.hero-checkout{
+    width: 100%;
+    display: flex;
+}
+.checkout-form{
+    width: 60%;
+}
+.btn-procced{
+    width: 100%;
+    background-color: green;
+}
+@media only screen and (max-width: 768px){
+    .navlist{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .icons a {
+        display: none;
+
+    }
+    .humber-icon{
+        display: flex;
+        width: 50px;
+    }
+    bar{
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .hero{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .books{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .books-cover{
+        width: 45%;
+    }
+    .text{
+        width:40% ; 
+    }
+    .bookmark{
+        margin: 0;
+    }
+    .hero-checkout{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero-checkout input, select{
+        width: 90%;
+        height: 40px;
+        border: solid 0px;
+        border-radius: 10px;
+        
+    }
+    .radio{
+        display: flex;
+    }
+
+}
